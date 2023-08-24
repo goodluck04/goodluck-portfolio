@@ -14,7 +14,7 @@ const Intro: React.FC = () => {
         <div>
         <Image
                     src={userInfo.picture}
-                    alt="dp"
+                    alt=""
                     width={300}
                     height={300}
                     className="rounded-full shadow-2xl mt-10"

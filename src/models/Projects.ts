@@ -1,7 +1,12 @@
 interface Projects {
-    gmail: object,
-    flipkart: object,
-    google: object,
-    indeed: object
+    tindog: object,
+    blog: object,
+    todo: object,
+    portfolio: object,
+    crud:object,
+    signup:object
 }
+
+
+
 
