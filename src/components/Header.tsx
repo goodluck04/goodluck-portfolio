@@ -28,14 +28,14 @@ const Header:React.FC = () => {
             />
         </div>
         {/* right side */}
-        <div className={`mr-8 md:space-x-6 mt-3 md:mt-0 md:block ${ NavItem ? 'block' : 'hidden'}`}>
+        <div className={`mr-8 md:space-x-6 mt-3 md:mt-0 md:block ${ NavItem ? 'block' : 'hidden'} `}>
             {
                 // map work with array
                 // so map the object with key
                 Object.keys(headerItems).map(item => (
                     <ScrollLink
                         to={headerItems[item as keyof NavItems].page}
-                        className='block md:inline-block cursor-pointer'
+                        className='block md:inline-block cursor-pointer hover:text-sky-400'
                         key= {headerItems[item as keyof NavItems].label}
                         spy={true}
                         smooth={true}

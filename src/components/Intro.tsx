@@ -37,7 +37,7 @@ const Intro: React.FC = () => {
                 className="bg-teal-600 items-center justify-center py-2 px-2 cursor-pointer w-28 h-10 rounded text-neutral-100"
                 spy={true}
                 smooth={true}
-            >Projeects</ScrollLink>
+            >Projects</ScrollLink>
         </div>
     </section>
   )

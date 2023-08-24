@@ -2,17 +2,22 @@ import { UserObject } from "@/models/Users"
 // import { NavItems } from "@/models/Header"
 
 
+
 // validate data type of constants from Users.ts
 export const userInfo: UserObject = {
     name: 'Goodluck',
-    picture: 'https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg',
-    heading: 'I&#39;m a Software Engineer based in India, with a passion for creating elegant and efficient solutions that seamlessly integrate user-friendly experiences. I&#39;ve built websites, desktop applications, and corporate software, leveraging cutting-edge technologies to drive innovation and enhance business processes.',
+    picture: '/image/profile-pic.png',
+    heading: 'I&#39;m a Software Engineer based in India, with a passion for creating elegant and efficient solutions that seamlessly integrate user-friendly experiences. I&#39;ve built websites, web applications, leveraging cutting-edge technologies to drive innovation and enhance business processes.',
     about: `
-        <p>I am a passionate Software Engineer with a strong background in Web Development, I have been crafting digital experiences for 5 years.</p>
-        <p>My journey in IT began in 2019 since then, I've had the privilege to work on a diverse range of projects, allowing me to refine my skills and approach to problem-solving.</p>
+        <p>I am a passionate Software Engineer with a strong background in Web Development, I have been crafting digital experiences for 2 years.</p>
+        <p>My journey in IT began in 2020 since then, I've had the privilege to work on a diverse range of projects, allowing me to refine my skills and approach to problem-solving.</p>
         <p> I thrive on turning complex ideas into elegant solutions that not only meet user needs but also create lasting impacts. </p>
+        <p>Feel free to connect with me to learn more about my journey.</p>
+        <a href="https://www.linkedin.com/in/goodluck04">Linkedin</a>
+        
+
         `,
-    skills: ['React', 'Next', 'Data Structure', 'Java', 'Spring Boot', 'Hibernate', 'AWS', 'MongoDB', 'MySQL', 'HTML', 'CSS'],   
+    skills: ['React', 'Node', 'Data Structure', 'Algorithms', 'C++', 'Python', 'Linux','Azure', 'AWS', 'MongoDB', 'MySQL', 'HTML', 'CSS'],   
 }
 
 
@@ -24,13 +29,12 @@ export const headerItems = {
 }
 
 export const projects = {
-    gmail: { image: 'https://i.ibb.co/3y7mjqn/gmail-clone.jpg' },
-    flipkart: { image: 'https://i.ibb.co/QDt04mP/maxresdefault.jpg' },
-    google: { image: 'https://i.ibb.co/RHpgMcC/google-clone-next.jpg' },
-    indeed: { image: 'https://i.ibb.co/tHkM8dD/indeed-clone.jpg' },
-    crud: { image: 'https://i.ibb.co/wS41qv7/crud-fullstack.jpg' },
-    aws: { image: 'https://i.ibb.co/61756n7/aws-3.jpg' },
-    notes: { image: 'https://i.ibb.co/wCN5CVj/notesapp.jpg' }
+    tindog: { image: '/image/one.png' },
+    blog: { image: '/image/two.png' },
+    todo: { image: '/image/three.png' },
+    portfolio: { image: '/image/four.png' },
+    crud: { image: '/image/five.png' },
+    signup: { image: '/image/six.png' },
 }
 
 

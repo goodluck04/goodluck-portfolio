@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
     images: {
+        output: 'export',
         domains: ["pbs.twimg.com", "i.ibb.co"]
     }
 }
