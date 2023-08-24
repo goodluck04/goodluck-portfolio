@@ -6,7 +6,7 @@ import { UserObject } from "@/models/Users"
 // validate data type of constants from Users.ts
 export const userInfo: UserObject = {
     name: 'Goodluck',
-    picture: '/image/profile-pic.png',
+    picture: './image/profile-pic.png',
     heading: 'I&#39;m a Software Engineer based in India, with a passion for creating elegant and efficient solutions that seamlessly integrate user-friendly experiences. I&#39;ve built websites, web applications, leveraging cutting-edge technologies to drive innovation and enhance business processes.',
     about: `
         <p>I am a passionate Software Engineer with a strong background in Web Development, I have been crafting digital experiences for 2 years.</p>
@@ -29,12 +29,12 @@ export const headerItems = {
 }
 
 export const projects = {
-    tindog: { image: '/image/one.png' },
-    blog: { image: '/image/two.png' },
-    todo: { image: '/image/three.png' },
-    portfolio: { image: '/image/four.png' },
-    crud: { image: '/image/five.png' },
-    signup: { image: '/image/six.png' },
+    tindog: { image: './image/one.png' },
+    blog: { image: './image/two.png' },
+    todo: { image: './image/three.png' },
+    portfolio: { image: './image/four.png' },
+    crud: { image: './image/five.png' },
+    signup: { image: './image/six.png' },
 }
 
 
